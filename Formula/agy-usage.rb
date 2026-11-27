@@ -1,9 +1,9 @@
 class AgyUsage < Formula
   desc "Zero-dependency local quota & token usage monitor for Google Antigravity"
   homepage "https://github.com/qiudai0627/agy-usage"
-  url "https://github.com/qiudai0627/agy-usage/releases/download/v1.3.0/agy-usage-release.zip"
-  version "1.3.0"
-  sha256 "c4a20a16ee9dfa5aad8843ee5bc442158e36fbdebc251657b95ad3b905ecfdff"
+  url "https://github.com/qiudai0627/agy-usage/releases/download/v1.4.0/agy-usage-release.zip"
+  version "1.4.0"
+  sha256 "f0c7f49054897f33364623e1cc0e7dc1962d405ee681a8d6c231655ab2bf7c9e"
   license "MIT"
 
   def install
@@ -19,8 +19,9 @@ class AgyUsage < Formula
       To wire Antigravity /statusline + macOS floating pill + local dashboard in one step:
         bash #{opt_libexec}/install.sh
       Or run CLI commands directly:
-        agy-usage serve
-        agy-usage summary
+        agy-usage
+        agy-usage watch
+        agy-usage daemon start
     EOS
   end
 
