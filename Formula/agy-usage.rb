@@ -3,7 +3,7 @@ class AgyUsage < Formula
   homepage "https://github.com/qiudai0627/agy-usage"
   url "https://github.com/qiudai0627/agy-usage/releases/download/v1.3.0/agy-usage-release.zip"
   version "1.3.0"
-  sha256 "b8d0978bb0bccb9bbf125c3552682bc152cdbca7f8c16d9843f7a67b986ece19"
+  sha256 "c4a20a16ee9dfa5aad8843ee5bc442158e36fbdebc251657b95ad3b905ecfdff"
   license "MIT"
 
   def install
