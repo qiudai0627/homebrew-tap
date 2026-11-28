@@ -1,9 +1,9 @@
 class AgyUsage < Formula
   desc "Zero-dependency local quota & token usage monitor for Google Antigravity"
   homepage "https://github.com/qiudai0627/agy-usage"
-  url "https://github.com/qiudai0627/agy-usage/releases/download/v1.4.0/agy-usage-release.zip"
+  url "https://github.com/qiudai0627/agy-usage/releases/download/v1.5.0/agy-usage-release.zip"
   version "1.4.0"
-  sha256 "f0c7f49054897f33364623e1cc0e7dc1962d405ee681a8d6c231655ab2bf7c9e"
+  sha256 "52459fe29ae8945c30529b2b2c81fef408a57c2eefa536128dc8fb54b43ecd2b"
   license "MIT"
 
   def install
